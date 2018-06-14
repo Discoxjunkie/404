@@ -1,16 +1,50 @@
+
+/* RESPONSIVE TEXT SIZE */
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+
+
+h1 {
+  width:35vw;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
 .jumbotron{
-  background-image: url('../images/philipp-kammerer-346387-unsplash.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: auto;
+  background-image: url('../images/cody-black-52701-unsplash.jpg');
   height:100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .hero-text {
 
- padding-top: 40vh;
- color:white;
+ margin-top: 30vh;
+ color:grey;
 
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(0,0,0,0.4);
 }
