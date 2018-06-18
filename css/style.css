@@ -1,32 +1,15 @@
 
 /* RESPONSIVE TEXT SIZE */
-html {
-  font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 
 
 h1 {
   width:35vw;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron{
@@ -47,4 +30,16 @@ h1 {
 
 .navbar.transparent.navbar-inverse .navbar-inner {
   background: rgba(0,0,0,0.4);
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 575.98px) {
+  h1 {
+    color:red;
+    font-size: ;
+  }
+
+
 }
